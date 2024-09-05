@@ -22,7 +22,7 @@ const {
   GET_FULL_COURSE_DETAILS_AUTHENTICATED,
   CREATE_RATING_API,
   LECTURE_COMPLETION_API,
-} = courseEndpoints
+} = courseEndpoints;
 
 export const getAllCourses = async () => {
   const toastId = toast.loading("Loading...")

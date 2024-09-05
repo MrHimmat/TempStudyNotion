@@ -8,6 +8,7 @@ import { logout } from "../../../services/operations/authAPI";
 import ConfirmationModal from "../../common/ConfirmationModal";
 import SidebarLink from "./SidebarLink";
 import { AiOutlineMenuFold } from "react-icons/ai";
+
 export default function Side({isVisible , onClose}) {
   const { user, loading: profileLoading } = useSelector(
     (state) => state.profile

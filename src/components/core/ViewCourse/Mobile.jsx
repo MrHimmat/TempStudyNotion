@@ -69,7 +69,7 @@ export default function Mobile({ setReviewModal, isVisible, onClose }) {
               <IconBtn
                 text="Add Review"
                 customClasses="ml-auto"
-                onClick={ ()=> setReviewModal(true)}
+                onclick={ ()=> setReviewModal(true)}
               />
             </div>
             <div className="flex flex-col">

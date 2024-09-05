@@ -65,7 +65,7 @@ export default function EnrolledCourses() {
       <div className="text-2xl md:text-3xl lg:text-4xl text-richblack-5 font-bold my-4">
         Enrolled Courses
       </div>
-      <div className="my-8 lg:relative text-richblack-5">
+      <div className="my-8 text-richblack-5">
         {/* Headings */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-2 rounded-t-lg bg-richblack-500 text-white">
           <p className="px-4 py-2 font-semibold">Course Name</p>

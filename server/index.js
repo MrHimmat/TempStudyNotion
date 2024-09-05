@@ -49,12 +49,12 @@ app.use("/api/v1/payment", paymentRoutes);
 app.use("/api/v1/reach", contactUsRoute);
 
 // Testing the server
-// app.get("/", (req, res) => {
-// 	return res.json({
-// 		success: true,
-// 		message: "Your server is up and running ...",
-// 	});
-// });
+app.get("/", (req, res) => {
+	return res.json({
+		success: true,
+		message: "Your server is up and running ...",
+	});
+});
 
 // Listening to the server
 app.listen(PORT, () => {

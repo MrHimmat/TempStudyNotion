@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
     "@ramonak/react-progress-bar": "^5.2.0",
     "@reduxjs/toolkit": "^1.9.7",
     "@testing-library/jest-dom": "^6.5.0",

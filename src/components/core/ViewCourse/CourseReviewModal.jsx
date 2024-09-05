@@ -44,6 +44,7 @@ export default function CourseReviewModal({ setReviewModal }) {
     } catch (error) {
       console.error("Failed to submit review:", error);
     }
+    
   };
 
   if (!user) {
