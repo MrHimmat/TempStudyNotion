@@ -53,14 +53,14 @@ function VerifyEmail() {
           <div className="spinner"></div>
         </div>
       ) : (
-        <div className="max-w-[500px] p-4 lg:p-8">
+        <div className=" p-4 lg:p-8">
           <h1 className="text-richblack-5 font-semibold text-[1.875rem] leading-[2.375rem]">
             Verify Email
           </h1>
-          <p className="text-[1.125rem] leading-[1.625rem] my-4 text-richblack-100">
+          <p className="text-[1.125rem] lg:w-full w-[200px] leading-[1.625rem] my-4 text-richblack-100">
             A verification code has been sent to you. Enter the code below
           </p>
-          <form onSubmit={handleVerifyAndSignup}>
+          <form className="" onSubmit={handleVerifyAndSignup}>
             <OtpInput
               value={otp}
               onChange={setOtp}
@@ -72,7 +72,7 @@ function VerifyEmail() {
                   style={{
                     boxShadow: "inset 0px -1px 0px rgba(255, 255, 255, 0.18)",
                   }}
-                  className="w-[48px] lg:w-[60px] border-0 bg-richblack-800 rounded-[0.5rem] text-richblack-5 aspect-square text-center focus:border-0 focus:outline-2 focus:outline-yellow-50"
+                  className="w-[40px] lg:w-[65px] border-0 bg-richblack-800 rounded-[0.5rem] text-richblack-5 aspect-square text-center focus:border-0 focus:outline-2 focus:outline-yellow-50"
                 />
               )}
               containerStyle={{
@@ -94,7 +94,7 @@ function VerifyEmail() {
               </p>
             </Link>
             <button
-              className="flex items-center text-blue-100 gap-x-2"
+              className="flex items-center  text-blue-100 gap-x-2"
               onClick={() => dispatch(sendOtp(signupData.email,navigate))}
             >
               <RxCountdownTimer />
