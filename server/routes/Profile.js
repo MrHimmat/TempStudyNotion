@@ -8,7 +8,7 @@ const {
   getEnrolledCourses,
   getAllUserDetails,
   instructorDashboard,
-} = require("../controllers/profile")
+} = require("../controllers/Profile")
 
 // ********************************************************************************************************
 //                                      Profile routes
